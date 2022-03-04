@@ -8,4 +8,4 @@ for i in sklep_dict:
     a = sklep_dict.get(i)
     x += len(a)
     print("Ide do " + i.title() + " kupuje tu nastepujace rzeczy: " + str(a).title())
-print("W sumie kupuje " + str(x) + " produktow.")
+print("W sumie kupuje " + str(x) + " produktow, drugie pozdrowienia dla Pana Jacka!")
